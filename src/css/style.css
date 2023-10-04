@@ -11,16 +11,16 @@ html {
 
 .conteudo {
   width: 285px;
-  height: 440px;
-  margin: 0 auto;
-  padding: 4px;
+
+  padding: 20px;
   font-family: "Outfit";
   background-color: white;
-  display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  text-align: center;
 }
 .texto-azul {
   color: hsl(218, 44%, 22%);
@@ -29,14 +29,13 @@ html {
   color: hsl(220, 15%, 55%);
 }
 .img {
-  display: flex;
+  max-width: 100%;
   align-items: center;
   justify-content: center;
   width: 270px;
   border-radius: 15px;
 }
 p {
-  display: flex;
   width: 250px;
   text-align: center;
   justify-content: center;
